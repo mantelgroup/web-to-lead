@@ -1,0 +1,59 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D1e0000008loi">
+<input type=hidden name="retURL" value="http://google.com">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="mustafa@httpeak.com">     -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Advertisement">Advertisement</option>
+<option value="Employee Referral">Employee Referral</option>
+<option value="External Referral">External Referral</option>
+<option value="Partner">Partner</option>
+<option value="Public Relations">Public Relations</option>
+<option value="Seminar - Internal">Seminar - Internal</option>
+<option value="Seminar - Partner">Seminar - Partner</option>
+<option value="Trade Show">Trade Show</option>
+<option value="Web">Web</option>
+<option value="Word of mouth">Word of mouth</option>
+<option value="Other">Other</option>
+<option value="OK Google What&#39;s Next">OK Google What&#39;s Next</option>
+<option value="OK Google What&#39;s Next - DNA">OK Google What&#39;s Next - DNA</option>
+<option value="Google Summit 2019">Google Summit 2019</option>
+<option value="KIM Campaign">KIM Campaign</option>
+</select><br>
+
+<label for="url">Website</label><input  id="url" maxlength="80" name="url" size="20" type="text" /><br>
+
+<label for="title">Title</label><input  id="title" maxlength="40" name="title" size="20" type="text" /><br>
+
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<input  id="Lead_Status" maxlength="80" name="Lead_Status" size="20" type="hidden" value="Open" /><br>
+
+
+<input type="submit" name="submit">
+
+</form>
